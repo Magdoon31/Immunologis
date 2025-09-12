@@ -7,3 +7,11 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
   + Tlen
   + coś rzadkiego
   + coś rzadkiego
+
+- Kampania jedno-osobowa gdzie przedstawione są sytuacje z realnego życia
+  + nowotwór
+  + infekcja wirusowa
+  + alergia
+  + itd.
+
+- Grafika 2D (as simplistic as possible)
