@@ -5,5 +5,5 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
   + Glukoza (cukier)
   + Białko
   + Tlen
-  + coś żadkiego
-  + coś żadkiego
+  + coś rzadkiego
+  + coś rzadkiego
