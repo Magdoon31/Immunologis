@@ -5,8 +5,8 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
   + Glukoza (cukier)
   + Białko
   + Tlen
-  + coś rzadkiego
-  + coś rzadkiego
+  + Witaminy
+  + Antygeny
 
 - Kampania jedno-osobowa gdzie przedstawione są sytuacje z realnego życia
   + nowotwór
@@ -43,4 +43,10 @@ Surowce :
 
 - Budynki (Komórki specjalistyczne) :
   Rozbudowujesz bazę o dodatkowe moduły, które pozwalają na nowe rzeczy.
-  
+
+
+- Multiplayer
+  + W labolatorium
+  + sztuczne środowisko
+  + wysyłasz na przeciwników choroby
+  + możesz go też atakować swoimi jednostkami
