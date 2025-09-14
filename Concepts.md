@@ -21,7 +21,11 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
       (Jednostka Melee, atakuje patogeny)
     + Helper T Cells
       (Support, daje aoe boost do innych jednostek)
-    + Limfocyty B
-      (Wytwarzają przeciwciała którę biją patogeny)
+    + Plasma Cell
+      (Strzela przeciwciałami w patogeny, na odległość)
+    
 
 
+- Drzewko Technologii
+    + Regulatory T cells (Wyłącza friendly fire)
+    + Memory Cells (efektywniej pokonujesz przeciwników z którymi już walczyłeś)
