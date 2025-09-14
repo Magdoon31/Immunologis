@@ -5,7 +5,7 @@ Tribockij:
   - Walka jednostek
 
 Filip:
-  - Mapa
+  - Mapa 
   - Centrum, surowce i budowanie
 
 Maks:
