@@ -15,3 +15,13 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
   + itd.
 
 - Grafika 2D (as simplistic as possible)
+
+- Rodzaje Białych krwinek:
+    + Killer T cells
+      Jednostka Melee, atakuje patogeny
+    + Helper T Cells
+      Support, daje aoe boost do innych jednostek
+    + Limfocyty B
+      Wytwarzają przeciwciała którę biją patogeny
+
+
