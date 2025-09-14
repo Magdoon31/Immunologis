@@ -43,7 +43,7 @@ Surowce :
 
 - Budynki (Komórki specjalistyczne) :
   Rozbudowujesz bazę o dodatkowe moduły, które pozwalają na nowe rzeczy.
-
+- Na mapie będą skupiska losowych patogenów, które po pokonaniu, dają antygeny (surowce)
 
 - Multiplayer
   + W labolatorium
