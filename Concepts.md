@@ -40,4 +40,7 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
 Surowce :
   Na start gry, dostajesz punkty, które możesz używać w panelu surowców. Wykorzystując te punkty, możesz kontrolować tempo produkowania się surowców.
   np. masz 5 pkt. i wykorzystujesz 4 na białko i 1 na glukozę więc dostajesz białko 4/min i glukozy 1/min.
+
+- Budynki (Komórki specjalistyczne) :
+  Rozbudowujesz bazę o dodatkowe moduły, które pozwalają na nowe rzeczy.
   
