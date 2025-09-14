@@ -37,7 +37,7 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
     + Memory Cells (efektywniej pokonujesz przeciwników z którymi już walczyłeś)
 
 
-- Surowce
-+ Na start gry, dostajesz punkty, które możesz używać w panelu surowców. Wykorzystując te punkty, możesz kontrolować tempo produkowania się surowców.
+Surowce :
+  Na start gry, dostajesz punkty, które możesz używać w panelu surowców. Wykorzystując te punkty, możesz kontrolować tempo produkowania się surowców.
   np. masz 5 pkt. i wykorzystujesz 4 na białko i 1 na glukozę więc dostajesz białko 4/min i glukozy 1/min.
   
