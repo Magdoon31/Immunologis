@@ -29,3 +29,8 @@ Proszę wpisywać tu wszystkie pomysły, skargi i komplementy apropo gry
 - Drzewko Technologii
     + Regulatory T cells (Wyłącza friendly fire)
     + Memory Cells (efektywniej pokonujesz przeciwników z którymi już walczyłeś)
+
+
+- Surowce
+  Na start gry, dostajesz punkty, które możesz używać w panelu surowców. Wykorzystując te punkty, możesz kontrolować tempo produkowania się surowców.
+  
