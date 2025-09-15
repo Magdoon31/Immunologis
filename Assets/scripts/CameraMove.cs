@@ -1,24 +1,25 @@
 using UnityEngine;
+using System;
 
 public class CameraMove : MonoBehaviour
 {
     [Header("Ruch kamery")]
-    public float moveSpeed = 20f;
+    public float moveSpeed = 4f;
 
     [Header("Zoom kamery")]
     public float zoomSpeed = 5f;
-    public float minZoom = 4f;
-    public float maxZoom = 10f;
+    public float minZoom = 8f;
+    public float maxZoom = 20f;
 
     public Camera cam;
     public float cameraSize;
    
 
     [Header("Granice mapy")]
-    public float minX = -10f ;
-    public float maxX = 10f ;
-    public float minY = -5f ;
-    public float maxY = 5f;
+    public float minX = -83f ;
+    public float maxX = 83f ;
+    public float minY = -55f ;
+    public float maxY = 55f;
 
 
     void Start()
@@ -46,8 +47,10 @@ public class CameraMove : MonoBehaviour
         if (Input.GetKey(KeyCode.A)) moveX -= 1f;
         if (Input.GetKey(KeyCode.D)) moveX += 1f;
 
+        float CamSizeMultiplier = (float)cam.orthographicSize;
         Vector3 move = new Vector3(moveX, moveY, 0f).normalized;
-        transform.position += move * moveSpeed * Time.deltaTime;
+        transform.position += move * moveSpeed * Time.deltaTime * CamSizeMultiplier;
+
     }
 
     void HandleZoom()
@@ -64,8 +67,8 @@ public class CameraMove : MonoBehaviour
 
     void ClampPosition()
     {
-        float clampedX = Mathf.Clamp(transform.position.x, minX * 5 / cameraSize, maxX * 5 / cameraSize);
-        float clampedY = Mathf.Clamp(transform.position.y, minY * 5 / cameraSize, maxY * 5 / cameraSize);
+        float clampedX = Mathf.Clamp(transform.position.x, minX * 4/cameraSize, maxX * 4/cameraSize);
+        float clampedY = Mathf.Clamp(transform.position.y, minY * 4/cameraSize, maxY * 4/cameraSize);
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);
     }
 }
