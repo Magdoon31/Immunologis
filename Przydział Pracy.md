@@ -1,8 +1,11 @@
 # Przydział pracy
 
 Tribockij:
-  - Poruszanie się jednostek i zaznaczanie ich.
-  - Walka jednostek
+  - Poruszanie się jednostek i zaznaczanie ich
+
+Fabian:
+  - Walka Jednostek
+  - Podział na drużyny, jednostek
 
 Filip:
   - Mapa 
