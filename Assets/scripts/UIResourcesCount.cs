@@ -4,6 +4,18 @@ using UnityEngine.UI;
 
 public class UIResourceManager : MonoBehaviour
 {
+
+    // Starting points to distribute
+    public int points = 5;
+    public TextMeshProUGUI pointsText;
+
+    // Current resource points dystribution
+    public int oxygenPoints = 0;
+    public int proteinPoints = 0;
+    public int glucosePoints = 0;
+    public int vitPoints = 0;
+
+
     private float timer = 0f;
 
     public TextMeshProUGUI oxygenText;
@@ -27,10 +39,10 @@ public class UIResourceManager : MonoBehaviour
     private int vit = 20;
     private int aGens = 10;
 
-    private int oxygenIncome = 0;
-    private int proteinIncome = 0;
-    private int glucoseIncome = 0;
-    private int vitIncome = 0;
+    public int oxygenIncome =0;
+    public int proteinIncome =0;
+    public int glucoseIncome =0;
+    public int vitIncome =0;
 
     public void ChangeIncome(string type, int delta)
     {
@@ -44,6 +56,7 @@ public class UIResourceManager : MonoBehaviour
     }
     void Update()
     {
+        pointsText.text = "" + points;
 
         oxygenText.text = "" + oxygen;
         proteinText.text = "" + protein;

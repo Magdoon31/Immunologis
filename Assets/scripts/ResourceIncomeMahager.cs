@@ -7,41 +7,95 @@ public class DevPanelManager : MonoBehaviour
 
     public void IncreaseOxygenIncome()
     {
-        uiManager.ChangeIncome("oxygen", 10);
+        if (uiManager.points > 0)
+        {
+            uiManager.oxygenPoints++;
+            uiManager.points--;
+            uiManager.ChangeIncome("oxygen", 10);
+        }
+        
     }
 
     public void DecreaseOxygenIncome()
     {
-        uiManager.ChangeIncome("oxygen", -10);
+        if (uiManager.oxygenPoints > 0)
+        {
+            uiManager.oxygenPoints--;
+            uiManager.points++;
+            uiManager.ChangeIncome("oxygen", -10);
+        }
+        
+        
     }
 
     public void IncreaseProteinIncome()
     {
-        uiManager.ChangeIncome("protein", 10);
+        if (uiManager.points > 0)
+        {
+            uiManager.proteinPoints++;
+            uiManager.points--;
+            uiManager.ChangeIncome("protein", 10);
+        }
+        
     }
 
     public void DecreaseProteinIncome()
     {
-        uiManager.ChangeIncome("protein", -10);
+        if (uiManager.proteinPoints > 0)
+        {
+            uiManager.proteinPoints--;
+            uiManager.points++;
+            uiManager.ChangeIncome("protein", -10);
+        }
+       
+        
     }
 
     public void IncreaseGlucoseIncome()
     {
-        uiManager.ChangeIncome("glucose", 10);
+        if (uiManager.points > 0)
+        {
+            uiManager.glucosePoints++;
+            uiManager.points--;
+            uiManager.ChangeIncome("glucose", 10);
+        }
+        
     }
 
     public void DecreaseGlucoseIncome()
     {
-        uiManager.ChangeIncome("glucose", -10);
+        
+        if (uiManager.glucosePoints > 0)
+        {
+            uiManager.glucosePoints--;
+            uiManager.points++;
+            uiManager.ChangeIncome("glucose", -10);
+        }
+        
+        
     }
 
     public void IncreasevitIncome()
     {
-        uiManager.ChangeIncome("vitamins", 10);
+        if (uiManager.points > 0)
+        {
+            uiManager.vitPoints++;
+            uiManager.points--;
+            uiManager.ChangeIncome("vitamins", 10);
+        }
+        
     }
 
     public void DecreasevitIncome()
     {
-        uiManager.ChangeIncome("vitamins", -10);
+        
+        if (uiManager.vitPoints > 0)
+        {
+            uiManager.vitPoints--;
+            uiManager.points++;
+            uiManager.ChangeIncome("vitamins", -10);
+        }
+        
+       
     }
 }
