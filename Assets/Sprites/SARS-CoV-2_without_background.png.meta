@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SARS-CoV-2_without_background_0: -9114902550551258874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
